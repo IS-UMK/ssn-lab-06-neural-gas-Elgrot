@@ -8,7 +8,7 @@ def square_euclid(x, y):
 class VectorQuantization(BaseEstimator):
 
     def __init__(self, n_prototypes=10, eta=0.1, n_epochs=10):
-        self.k=n_prototypes
+        self.n_prototypes=n_prototypes
         self.eta = eta
         self.n_epochs = n_epochs
 
